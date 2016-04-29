@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void displayOnText() {
         TextView textView = (TextView) findViewById(R.id.myTextView);
-        textView.setText(this.counter);
+        textView.setText(this.counter+"");
     }
 
     @Override
